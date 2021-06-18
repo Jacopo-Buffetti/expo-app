@@ -6,7 +6,7 @@ import logo from '../../assets/Logo-bianco.png';
 import * as ImagePicker from 'expo-image-picker';
 import Card from "../../components/Card/Card";
 
-function Home() {
+const Home = () => {
   const [selectedImage, setSelectedImage] = React.useState(null);
 
   let openImagePickerAsync = async () => {

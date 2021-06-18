@@ -27,4 +27,5 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
   },
 });
+
 export default Card;
